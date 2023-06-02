@@ -30,7 +30,8 @@
         <br>
         <br>
 
-        <input type="submit"> <input type="reset" value="Remover">
+        <button class="botao" type="submit" value="submit">Enviar </button>
+        <button class="limpar" type="reset">Remover</button>
     </form>
 
     <?php
@@ -53,18 +54,18 @@
         if($media >= 7.5){
             //Saída
             echo "<br> <br> <br>";
-            echo "<h2>", "Média Bimestral: "   .$media.  "Aprovado", "</h2>";
+            echo "<h2>", "Média Bimestral: "  .$media. " - <font color='green'>Aprovado</font>", "</h2>";
         }
         
         if($media < 3){
             //Saída
             echo "<br> <br> <br>";
-            echo "<h2> Média Bimestral: "  .$media. "Reprovado </h2>";
+            echo "<h2>", "Média Bimestral: "  .$media. " - <font color='red'>Reprovado</font>", "</h2>";
         }
         if($media >= 3 && $media < 7.5){
             //Saída
             echo "<br> <br> <br>";
-            echo "<h2>", "Média Bimestral: "  .$media. "Recuperação", "</h2>";
+            echo "<h2>", "Média Bimestral: "  .$media. " - <font color='blue'>Recuperação</font>", "</h2>";
         }
     } 
 
