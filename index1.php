@@ -10,7 +10,7 @@
 </head>
 <body>
     <form action='<?php $_SERVER["PHP_SELF"] ?>' method="post">
-        <h1> Média Bimestral </h1>
+        <h1> Média  </h1>
         <br>
         <br>
         <label for="nota1">Nota 1: </label>
@@ -46,17 +46,17 @@
         if($media >= 7.5){
             //Saída
             echo "<br> <br> <br>";
-            echo "<h2>", "Média Bimestral: "  .$media. " APROVADO", "</h2>";
+            echo "<h2>", "Média Bimestral: "  .$media. " Aprovado", "</h2>";
         }
         if($media < 3){
             //Saída
             echo "<br> <br> <br>";
-            echo "<h2>", "Média Bimestral: "  .$media. " REPROVADO", "</h2>";
+            echo "<h2>", "Média Bimestral: "  .$media. " Reprovado", "</h2>";
         }
         if($media >= 3 && $media < 7.5){
             //Saída
             echo "<br> <br> <br>";
-            echo "<h2>", "Média Bimestral: "  .$media. " RECUPERAÇÃO", "</h2>";
+            echo "<h2>", "Média Bimestral: "  .$media. " Recuperação", "</h2>";
         }
     ?>
     
