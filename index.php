@@ -24,7 +24,7 @@
         <br>
         <label for="nota4">Nota 4: </label>
         <input type="text" name="nota4">
-        <br>]
+        <br>
         <br>
 
         <input type="submit"> <input type="reset" value="Remover">
