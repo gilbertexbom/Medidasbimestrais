@@ -48,7 +48,7 @@
         $nota3 = $_POST["nota3"];
         $nota4 = $_POST["nota4"];
         //Processamento 
-        $media = ($nota1 + $nota2 + $nota3 + $nota4)/4;
+        $media = ($nota1 + $nota2 + $nota3 + $nota4);
         
         if($media >= 7.5){
             //Saída
