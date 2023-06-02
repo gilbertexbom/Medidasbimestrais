@@ -16,11 +16,14 @@
         <label for="nota1">Nota 1: </label>
         <input type="number" max="10" name="nota1">
         <br>
+        <br>
         <label for="nota2">Nota 2: </label>
         <input type="text" name="nota2">
         <br>
+        <br>
         <label for="nota3">Nota 3: </label>
         <input type="text" name="nota3">
+        <br>
         <br>
         <label for="nota4">Nota 4: </label>
         <input type="text" name="nota4">
